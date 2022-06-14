@@ -1,6 +1,6 @@
 <template>
   <div class="index">
-    <h1>Welcome to Admin Console!</h1>
+    <h1 id="welcome">Welcome to Admin Console!</h1>
   </div>
 </template>
 

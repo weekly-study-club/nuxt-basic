@@ -36,7 +36,6 @@ export default {
     },
     onClickUser(user) {
       const { _id } = user;
-      console.log(user);
       this.$router.push(`/users/${_id}`);
     },
   },

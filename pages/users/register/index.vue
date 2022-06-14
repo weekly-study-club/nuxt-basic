@@ -23,7 +23,7 @@ export default {
   },
   methods: {
     onSubmit() {
-      this.$axios.post('/api/users', { ...this.user }).then((res) => {
+      this.$axios.post('/api/users', this.user).then((res) => {
         console.log(res);
       });
     },
