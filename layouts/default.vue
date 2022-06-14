@@ -77,9 +77,14 @@ export default {
           to: '/',
         },
         {
-          icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire',
+          icon: 'mdi-human-male',
+          title: '회원가입',
+          to: '/users/register'
+        },
+        {
+          icon: 'mdi-human-male',
+          title: '회원목록',
+          to: '/users'
         },
       ],
       miniVariant: false,

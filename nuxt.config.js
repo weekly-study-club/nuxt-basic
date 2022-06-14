@@ -23,14 +23,12 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
 
-  serverMiddleware: {
-    '/api': '~/api',
-  },
+  serverMiddleware: [
+    '~/api'
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
-  components: [
-    { prefix: 'App', path: '~/components/group' },
-  ],
+  components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
